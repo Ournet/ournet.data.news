@@ -21,7 +21,6 @@
     "elasticsearch": "^4.0.2",
     "mongoose": "^4.0.2",
     "ournet.core": "^0.1.8",
-    "ournet.data": "^0.0.8",
     "slug": "^0.9.1"
   }
 }
