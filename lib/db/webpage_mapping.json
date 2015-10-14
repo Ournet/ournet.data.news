@@ -1,0 +1,151 @@
+{
+  "webpage": {
+    "properties": {
+      "category": {
+        "type": "long"
+      },
+      "country": {
+        "type": "string"
+      },
+      "host": {
+        "type": "string",
+        "index": "no"
+      },
+      "id": {
+        "type": "string"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "path": {
+        "type": "string",
+        "index": "no"
+      },
+      "publishedAt": {
+        "type": "date",
+        "format": "dateOptionalTime"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "title_ro": {
+        "type": "string",
+        "analyzer": "romanian"
+      },
+      "summary_ro": {
+        "type": "string",
+        "analyzer": "romanian"
+      },
+      "title_ru": {
+        "type": "string",
+        "analyzer": "russian"
+      },
+      "summary_ru": {
+        "type": "string",
+        "analyzer": "russian"
+      },
+      "title_en": {
+        "type": "string",
+        "analyzer": "english"
+      },
+      "summary_en": {
+        "type": "string",
+        "analyzer": "english"
+      },
+      "title_bg": {
+        "type": "string",
+        "analyzer": "bulgarian"
+      },
+      "summary_bg": {
+        "type": "string",
+        "analyzer": "bulgarian"
+      },
+      "title_hu": {
+        "type": "string",
+        "analyzer": "hungarian"
+      },
+      "summary_hu": {
+        "type": "string",
+        "analyzer": "hungarian"
+      },
+      "title_cs": {
+        "type": "string",
+        "analyzer": "czech"
+      },
+      "summary_cs": {
+        "type": "string",
+        "analyzer": "czech"
+      },
+      "title_it": {
+        "type": "string",
+        "analyzer": "italian"
+      },
+      "summary_it": {
+        "type": "string",
+        "analyzer": "italian"
+      },
+      "title_tr": {
+        "type": "string",
+        "analyzer": "turkish"
+      },
+      "summary_tr": {
+        "type": "string",
+        "analyzer": "turkish"
+      },
+      "topics": {
+        "properties": {
+          "abbr": {
+            "type": "string",
+            "index": "no"
+          },
+          "category": {
+            "type": "long"
+          },
+          "id": {
+            "type": "long"
+          },
+          "key": {
+            "type": "string",
+            "index": "no"
+          },
+          "name": {
+            "type": "string",
+            "index": "no"
+          },
+          "type": {
+            "type": "long"
+          },
+          "uniqueName": {
+            "type": "string",
+            "index": "no"
+          }
+        }
+      },
+      "uniqueName": {
+        "type": "string",
+        "index": "no"
+      },
+      "websiteId": {
+        "type": "long"
+      },
+      "storyId": {
+        "type": "long"
+      },
+      "quotes": {
+        "type": "string",
+        "index": "no"
+      },
+      "videoId": {
+        "type": "string",
+        "index": "no"
+      }
+    },
+    "_ttl": {
+      "enabled": true,
+      "default": "24h"
+    }
+  }
+}

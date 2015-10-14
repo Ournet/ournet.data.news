@@ -1,0 +1,27 @@
+{
+  "name": "ournet.data.webdata",
+  "version": "0.1.0",
+  "description": "ournet data webdata",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ournet/ournet.data.webdata.git"
+  },
+  "keywords": [
+    "ournet",
+    "data",
+    "web"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^4.0.2",
+    "mongoose": "^4.0.2",
+    "ournet.core": "^0.1.8",
+    "ournet.data": "^0.0.8",
+    "slug": "^0.9.1"
+  }
+}
