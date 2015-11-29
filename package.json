@@ -1,6 +1,6 @@
 {
   "name": "ournet.data.webdata",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ournet data webdata",
   "main": "./lib/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "Dumitru Cantea",
   "license": "ISC",
   "dependencies": {
-    "elasticsearch": "^4.0.2",
+    "elasticsearch": "^10.0.0",
     "mongoose": "^4.0.2",
     "ournet.core": "^0.1.8",
     "slug": "^0.9.1"
