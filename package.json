@@ -1,10 +1,11 @@
 {
   "name": "ournet.data.webdata",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "ournet data webdata",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "./node_modules/mocha/bin/mocha -R spec -t 5000",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -13,14 +14,21 @@
   "keywords": [
     "ournet",
     "data",
-    "web"
+    "webdata"
   ],
   "author": "Dumitru Cantea",
   "license": "ISC",
   "dependencies": {
+    "atonic": "^1.0.4",
     "elasticsearch": "^10.0.0",
+    "lodash": "^4.6.1",
+    "memory-cache": "^0.1.4",
     "mongoose": "^4.0.2",
-    "ournet.core": "^0.1.8",
+    "ournet.utils": "^0.1.0",
     "slug": "^0.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0",
+    "mocha": "^2.4.5"
   }
 }
