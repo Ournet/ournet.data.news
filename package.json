@@ -1,6 +1,6 @@
 {
   "name": "ournet.data.webdata",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ournet data webdata",
   "main": "./lib/index.js",
   "scripts": {
