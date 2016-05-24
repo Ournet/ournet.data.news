@@ -25,7 +25,8 @@
     "memory-cache": "^0.1.4",
     "mongoose": "^4.0.2",
     "ournet.utils": "^0.1.0",
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "statefulco": "^0.1.0"
   },
   "devDependencies": {
     "dotenv": "^2.0.0",
