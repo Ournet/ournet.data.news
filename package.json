@@ -1,7 +1,7 @@
 {
-  "name": "ournet.data.webdata",
-  "version": "0.2.4",
-  "description": "ournet data webdata",
+  "name": "ournet.data.news",
+  "version": "0.3.0",
+  "description": "ournet data news",
   "main": "./lib/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha -R spec -t 5000",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ournet/ournet.data.webdata.git"
+    "url": "https://github.com/Ournet/ournet.data.news.git"
   },
   "keywords": [
     "ournet",
     "data",
-    "webdata"
+    "news"
   ],
   "author": "Dumitru Cantea",
   "license": "ISC",
