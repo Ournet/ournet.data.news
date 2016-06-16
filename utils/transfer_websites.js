@@ -52,6 +52,11 @@ function transfer() {
 						});
 				}).then(transfer);
 			}
+			console.log('DONE');
+			setTimeout(function() {
+				/*eslint no-process-exit: 0*/
+				process.exit(0);
+			}, 5 * 1000);
 		});
 }
 
