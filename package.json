@@ -1,6 +1,6 @@
 {
   "name": "ournet.data.news",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "ournet data news",
   "main": "./lib/index.js",
   "scripts": {
