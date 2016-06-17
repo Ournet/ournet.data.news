@@ -1,6 +1,6 @@
 {
   "name": "ournet.data.news",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "ournet data news",
   "main": "./lib/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "atonic": "^1.0.4",
-    "elasticsearch": "^10.0.0",
+    "elasticsearch": "10.0.0",
     "lodash": "^4.6.1",
     "memory-cache": "^0.1.4",
     "mongoose": "^4.0.2",
